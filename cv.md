@@ -1,23 +1,17 @@
 # Lev Kalinin
 
----
-
 ![Profile picture](https://avatars.githubusercontent.com/u/68015557?v=4 'Profile picture')
-
----
 
 ## Contacts
 
-Location: Batumi, Georgia
-Phone: (+995)593-623-268
-Email: lkalinindev@gmail.com
-Telegram: @almost0ne
-LinkedIn: [Lev Kalinin](https://www.linkedin.com/in/lkalinin/ 'LinkedIn url')
-Github: [almalmalm](https://github.com/almalmalm 'Github url')
-Discord: almalmalm
-Codewars: [almalmalm](https://www.codewars.com/users/almalmalm 'Codewars url')
-
----
+- Location: Batumi, Georgia
+- Phone: (+995)593-623-268
+- Email: lkalinindev@gmail.com
+- Telegram: @almost0ne
+- LinkedIn: [Lev Kalinin](https://www.linkedin.com/in/lkalinin/ 'LinkedIn url')
+- Github: [almalmalm](https://github.com/almalmalm 'Github url')
+- Discord: almalmalm
+- Codewars: [almalmalm](https://www.codewars.com/users/almalmalm 'Codewars url')
 
 ## About
 
@@ -26,8 +20,6 @@ My goal in life is to enjoy my own work. My priorities in life are a healthy lif
 I have tried many different areas of work and fell in love with the IT field. I studied QA and frontend development at the same time. But it turned out that I got a job as a QA. Right away I started using javascript and typescript and writing autotests and even helped with small tasks at the frontend.
 
 After 2 years of working as QA, I got tired of working from manual tasks, because even as QA Automation I do manual tasks. I spend almost all my free time creating web applications and use react most of the time.
-
----
 
 ## Skills
 
@@ -39,9 +31,9 @@ After 2 years of working as QA, I got tired of working from manual tasks, becaus
 - Windows, Linux, MacOS
 - MySQL, MongoDB
 
----
-
 ## Code
+
+**Typescript + React**
 
 ```
 type Props = {
@@ -79,6 +71,10 @@ const Characters: React.FC<Props> = ({ characters }) => {
 };
 ```
 
+---
+
+**Typescript + Nodejs**
+
 ```
 interface BookDocument extends Document {
   title: string;
@@ -96,6 +92,10 @@ const BookSchema = new Schema<BookDocument>({
 
 const Book = mongoose.model<BookDocument>('Book', BookSchema);
 ```
+
+---
+
+**Java + Selenium**
 
 ```
 public class GoogleTest {
@@ -120,6 +120,10 @@ public class GoogleTest {
 }
 ```
 
+---
+
+**Python + Selenium**
+
 ```
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
@@ -131,6 +135,10 @@ def test_open_stack():
     time.sleep(5)
     assert driver.current_url.__contains__("stackoverflow")
 ```
+
+---
+
+**Typescript + Cypress**
 
 ```
 class MainPage {
@@ -188,6 +196,10 @@ class MainPage {
 }
 ```
 
+---
+
+**Codewars Rank 6 Java**
+
 ```
 public class PangramChecker {
   public boolean check(String sentence){
@@ -202,33 +214,33 @@ public class PangramChecker {
 }
 ```
 
+---
+
+**Codewars Rank 6 Typescript**
+
 ```
 export function createPhoneNumber(numbers: number[]): string {
   return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`
 }
 ```
 
----
-
 ## Work Experience
 
 - **Rusklimat** _QA Automation Engineer(Playwright + Typescript) + QA Manual_ Moscow, Russia 09,2022 - Now
 - **Anflat** _QA Manual + QA Automation Engineer(Cypress + Javascript)_ Kazan, Russia 12,2021 - 09,2022
 
-Projects:
+---
+
+**Projects**
 
 - [My Expenses app](https://my-expenses-three.vercel.app/ 'App about money spending') [GitHub](https://github.com/almalmalm/my-expenses 'GitHub url')
 - [Rick and Morty](https://rick-and-morty-almalmalm.vercel.app/ 'App about Rick and Morty series') [GitHub](https://github.com/almalmalm/rick-and-morty 'GitHub url')
-
----
 
 ## Education
 
 - Bachelor of Computer Science 2021 - now(paused at 09,2022)
 - Food Service Technologist 2016-2019
 - Andersen QA course
-
----
 
 ## Languages
 
