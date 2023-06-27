@@ -2,7 +2,7 @@
 
 ---
 
-![Profile picture](/img/profile_picture.jpg 'Profile picture')
+![Profile picture](./img/profile_picture.jpg 'Profile picture')
 
 ---
 
