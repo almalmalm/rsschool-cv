@@ -227,7 +227,7 @@ export function createPhoneNumber(numbers: number[]): string {
 ## Work Experience
 
 - **Rusklimat** &nbsp; &nbsp; _QA Automation Engineer(Playwright + Typescript) + QA Manual_ &nbsp; &nbsp; &nbsp; &nbsp; Moscow, Russia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 09,2022 - Now
-- **Anflat** &nbsp; &nbsp; &nbsp; &nbsp; _QA Manual + QA Automation Engineer(Cypress + Javascript)_ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kazan, Russia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12,2021 - 09,2022
+- **Anflat** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _QA Manual + QA Automation Engineer(Cypress + Javascript)_ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kazan, Russia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12,2021 - 09,2022
 
 ---
 
