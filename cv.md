@@ -2,7 +2,7 @@
 
 ---
 
-![Profile picture](./img/profile_picture.jpg 'Profile picture')
+![Profile picture](https://avatars.githubusercontent.com/u/68015557?v=4 'Profile picture')
 
 ---
 
