@@ -227,7 +227,7 @@ export function createPhoneNumber(numbers: number[]): string {
 ## Work Experience
 
 - **Rusklimat** _QA Automation Engineer(Playwright + Typescript) + QA Manual_ &nbsp; &nbsp; &nbsp; &nbsp; Moscow, Russia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 09,2022 - Now
-- **Anflat** _QA Manual + QA Automation Engineer(Cypress + Javascript)_ &nbsp; &nbsp; &nbsp; &nbsp; Kazan, Russia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12,2021 - 09,2022
+- **Anflat** _QA Manual + QA Automation Engineer(Cypress + Javascript)_ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kazan, Russia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12,2021 - 09,2022
 
 ---
 
@@ -244,5 +244,5 @@ export function createPhoneNumber(numbers: number[]): string {
 
 ## Languages
 
-- **English** Intermediate/ Upper-Intermediate [EFSET C1 Advanced](https://www.efset.org/cert/2BwmeD 'EFSET certificate')
+- **English** Upper-Intermediate [EFSET C1 Advanced](https://www.efset.org/cert/2BwmeD 'EFSET certificate')
 - **Russian** Native
