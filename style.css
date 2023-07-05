@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: 'Montserrat';
+  color: #3871a7;
 }
 
 *,
@@ -37,5 +39,55 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: cadetblue;
+  background-color: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  border: 1px solid red;
+}
+
+.nav {
+  margin-top: 64px;
+  margin-right: 32px;
+}
+
+.main {
+  border: 1px solid red;
+}
+
+.footer {
+  border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: #3871a7;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 425px) {
+  .nav {
+    margin-top: 16px;
+    margin-right: 8px;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+  }
 }
