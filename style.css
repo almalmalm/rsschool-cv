@@ -58,14 +58,6 @@ body {
   margin-right: 32px;
 }
 
-.main {
-  border: 1px solid red;
-}
-
-.footer {
-  border: 1px solid red;
-}
-
 a {
   text-decoration: none;
   color: #3871a7;
@@ -76,6 +68,49 @@ a {
   justify-content: flex-end;
   align-items: center;
   gap: 16px;
+}
+
+.main {
+  border: 1px solid red;
+}
+
+.summary {
+  display: flex;
+  margin: 0 64px;
+}
+
+.name {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.story {
+  width: 80%;
+  color: #57565a;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background {
+  width: 384px;
+  height: 512px;
+  border: 2px solid #3871a7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.background img {
+  position: relative;
+  left: -24px;
+}
+
+.footer {
+  border: 1px solid red;
 }
 
 @media only screen and (max-width: 425px) {
