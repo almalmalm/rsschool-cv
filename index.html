@@ -44,7 +44,7 @@
   </header>
   <main class="main">
     <div class="container">
-      <div class="summary">
+      <section class="summary">
         <div class="text">
           <div class="name">Lev Kalinin</div>
           <div class="story">
@@ -53,8 +53,8 @@
             I have tried many different areas of work and fell in love with the IT field. I studied QA and frontend
             development at the same time. But it turned out that I got a job as a QA. Right away I started using
             javascript and typescript and writing autotests and even helped with small tasks at the frontend.<br>
-            After 2 years of working as QA, I got tired of working from manual tasks, because even as QA Automation I do
-            manual tasks. I spend almost all my free time creating web applications and use react most of the time.
+            After 2 years of working as QA, I got tired of working with manual tasks. I spend almost all my free time
+            creating web applications and use react most of the time.
           </div>
         </div>
         <div class="avatar">
@@ -62,7 +62,109 @@
             <img src="assets/img/avatar.png" alt="Avatar">
           </div>
         </div>
-      </div>
+      </section>
+      <section class="contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            Location: Batumi, Georgia
+          </li>
+          <li class="contacts-item">
+            Phone: (+995)593-623-268
+          </li>
+          <li class="contacts-item">
+            Email: lkalinindev@gmail.com
+          </li>
+          <li class="contacts-item">
+            Telegram: @almost0ne
+          </li>
+          <li class="contacts-item">
+            LinkedIn: <a href="https://www.linkedin.com/in/lkalinin/">Lev Kalinin</a>
+          </li>
+          <li class="contacts-item">
+            Github: <a href="https://github.com/almalmalm">almalmalm</a>
+          </li>
+          <li class="contacts-item">
+            Discord: almalmalm
+          </li>
+          <li class="contacts-item">
+            Codewars: <a href="https://www.codewars.com/users/almalmalm">almalmalm</a>
+          </li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">
+            HTML, CSS, SQL, Bash, Javascript, Typescript, Java, Python
+          </li>
+          <li class="skills-item">
+            Cypress, Playwright, Pytest, Selenium, TestNG, Mocha, React, Angular, TailwindCSS, SCSS, Redux, Next,
+            Three.js
+          </li>
+          <li class="skills-item">
+            Git, GitHub, GitLab
+          </li>
+          <li class="skills-item">
+            Docker, Nodejs, Jira, Confluence, DevTools, Postman, Swagger, Figma, Allure, Gitlab CI/CD, GitHub Actions
+          </li>
+          <li class="skills-item">
+            VSCode, WebStorm, IntelliJIDEA, PyCharm
+          </li>
+          <li class="skills-item">
+            Windows, Linux, MacOS
+          </li>
+          <li class="skills-item">
+            MySQL, MongoDB
+          </li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2>Code</h2>
+        <div class="code-block">
+          <pre>
+              <code>
+                type Props = {
+                  characters: Character[];
+                };
+                
+                type Character = {
+                  id: number;
+                  name: string;
+                  gender: string;
+                  episodes: string[];
+                  image: string;
+                  species: string;
+                  status: string;
+                  url: string;
+                  location: { name: string; url: string };
+                };
+                
+                const Characters: React.FC&#60;Props&#62; = ({ characters }) =&#62; {
+                  return (
+                    &#60;&#62;
+                      &#60;Header position="relative" /&#62;
+                      &#60;div className="text-[#fbfcff] tablet:my-0 tablet:mx-auto w-full"&#62;
+                        &#60;ul className="flex flex-wrap justify-center"&#62;
+                          {characters.map((character: Character) =&#62; (
+                            &#60;li key={character.id}&#62;
+                              &#60;Character img={character.image} name={character.name} /&#62;
+                            &#60;/li&#62;
+                          ))}
+                        &#60;/ul&#62;
+                      &#60;/div&#62;
+                      &#60;Pagination /&#62;
+                    &#60;/&#62;
+                  );
+                };
+            </code>
+          </pre>
+        </div>
+      </section>
+      <section class="work-experience">
+        <h2>Work Experience</h2>
+        <ul></ul>
+      </section>
     </div>
   </main>
   <footer class="footer">

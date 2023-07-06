@@ -49,13 +49,17 @@ body {
   justify-content: space-between;
 }
 
+h2 {
+  font-weight: 700;
+}
+
 .header {
   border: 1px solid red;
 }
 
 .nav {
-  margin-top: 64px;
-  margin-right: 32px;
+  margin: 64px 32px;
+  border: 4px dotted greenyellow;
 }
 
 a {
@@ -77,16 +81,19 @@ a {
 .summary {
   display: flex;
   margin: 0 64px;
+  border: 4px dotted greenyellow;
 }
 
 .name {
-  font-size: 72px;
+  /* font-size: 72px; */
+  font-size: 6.4vw;
   font-weight: 700;
 }
 
 .story {
   width: 80%;
   color: #57565a;
+  margin-top: 32px;
 }
 
 .text {
@@ -97,18 +104,31 @@ a {
 
 .background {
   width: 384px;
-  height: 512px;
+  height: 520px;
   border: 4px solid #3871a7;
-  border-radius: 8px;
+  border-radius: 16px;
   display: flex;
   align-items: center;
 }
 
 .background img {
   position: relative;
-  left: -24px;
+  left: -48px;
   border-radius: 10px;
-  box-shadow: 10px 10px 40px #888888;
+  box-shadow: 20px 20px 40px #888888;
+}
+
+.contacts {
+  border: 4px dotted greenyellow;
+  margin: 64px 32px;
+}
+
+.contacts-list {
+  color: #57565a;
+}
+
+.code-block {
+  background-color: rgb(232, 232, 232);
 }
 
 .footer {
