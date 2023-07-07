@@ -62,7 +62,7 @@ a {
 }
 
 .nav {
-  margin: 64px 32px;
+  margin: 64px 24px;
 }
 
 .nav-list {
@@ -70,7 +70,6 @@ a {
   justify-content: flex-end;
   align-items: center;
   gap: 8px;
-  margin-bottom: 16px;
 }
 
 .nav-link {
@@ -133,9 +132,13 @@ pre {
 .work-experience,
 .projects,
 .education,
-.languages,
-.footer-list {
+.languages {
   margin: 64px 32px;
+}
+
+.footer-list {
+  margin: 0 32px;
+  margin-bottom: 16px;
 }
 
 .contacts-list,
@@ -190,6 +193,31 @@ pre {
 
 .github {
   width: 32px;
+}
+
+.top {
+  position: fixed;
+  bottom: 32px;
+  right: 0px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.top a {
+  cursor: pointer;
+}
+
+.top::after {
+  content: '';
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #54acf452;
+  position: relative;
+  top: 10px;
+  right: 51px;
+  border-radius: 50%;
+  pointer-events: none;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -308,12 +336,10 @@ pre {
   }
 }
 
-/* Add a black background color to the top navigation */
 .nav {
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .nav a {
   float: left;
   display: block;
@@ -324,7 +350,6 @@ pre {
   text-decoration: none;
 }
 
-/* Change the color of links on hover */
 .nav a:hover {
   color: #ffffff;
   background-color: #3871a7;
