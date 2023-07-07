@@ -354,6 +354,7 @@ pre {
   color: #ffffff;
   background-color: #3871a7;
   border-radius: 8px;
+  transition: 0.3s;
 }
 
 .nav .icon {
