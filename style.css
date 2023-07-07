@@ -52,6 +52,7 @@ body {
 h2 {
   font-weight: 700;
   color: #3871a7;
+  margin-bottom: 16px;
 }
 
 .header {
@@ -81,7 +82,7 @@ a {
 
 .summary {
   display: flex;
-  margin: 0 64px;
+  margin: 0 32px;
   border: 4px dotted greenyellow;
 }
 
@@ -120,7 +121,14 @@ a {
   box-shadow: 20px 20px 40px #888888;
 }
 
-.contacts {
+.contacts,
+.skills,
+.code,
+.work-experience,
+.projects,
+.education,
+.languages,
+.footer-list {
   border: 4px dotted greenyellow;
   margin: 64px 32px;
 }
@@ -130,7 +138,7 @@ a {
 }
 
 .code-block {
-  background-color: rgb(232, 232, 232);
+  background-color: #e8e8e8;
 }
 
 pre {
