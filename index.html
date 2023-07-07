@@ -11,13 +11,47 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Lev Kalinin CV</title>
   </head>
 
   <body>
     <header class="header">
       <div class="container">
-        <nav class="nav">
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#summary" class="active">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work-experience">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                 <a href="#languages">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
               <a href="#contacts" class="nav-link">Contacts</a>
@@ -41,12 +75,12 @@
               <a href="#languages" class="nav-link">Languages</a>
             </li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </header>
     <main class="main">
       <div class="container">
-        <section class="summary">
+        <section id="summary" class="summary">
           <div class="text">
             <div class="name">Lev Kalinin</div>
             <div class="story">
@@ -260,5 +294,6 @@
         </ul>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
