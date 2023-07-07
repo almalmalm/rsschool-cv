@@ -1,141 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/icons/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Lev Kalinin CV</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav" id="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#summary" class="active">Summary</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contacts">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#code">Code</a>
-            </li>
-            <li class="nav-item">
-              <a href="#work-experience">Work Experience</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a href="#languages">Languages</a>
-            </li>
-            <li class="nav-item">
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="main">
-      <div class="container">
-        <section id="summary" class="summary">
-          <div class="text">
-            <div class="name">Lev Kalinin</div>
-            <div class="story">
-              My goal in life is to enjoy my own work. My priorities in life are
-              a healthy lifestyle, peace of mind, family and travel.<br />
-              I have tried many different areas of work and fell in love with
-              the IT field. I studied QA and frontend development at the same
-              time. But it turned out that I got a job as a QA. Right away I
-              started using javascript and typescript and writing autotests and
-              even helped with small tasks at the frontend.<br />
-              After 2 years of working as QA, I got tired of working with manual
-              tasks. I spend almost all my free time creating web applications
-              and use react most of the time.
-            </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Lev Kalinin CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#summary" class="active">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#code">Code</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work-experience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#languages">Languages</a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section id="summary" class="summary">
+        <div class="text">
+          <h1 class="name">Lev Kalinin</h1>
+          <div class="story">
+            My goal in life is to enjoy my own work. My priorities in life are
+            a healthy lifestyle, peace of mind, family and travel.<br>
+            I have tried many different areas of work and fell in love with
+            the IT field. I studied QA and frontend development at the same
+            time. But it turned out that I got a job as a QA. Right away I
+            started using javascript and typescript and writing autotests and
+            even helped with small tasks at the frontend.<br>
+            After 2 years of working as QA, I got tired of working with manual
+            tasks. I spend almost all my free time creating web applications
+            and use react most of the time.
           </div>
-          <div class="avatar">
-            <div class="background">
-              <img src="assets/img/avatar.png" alt="Avatar" />
-            </div>
+        </div>
+        <div class="avatar">
+          <div class="background">
+            <img src="assets/img/avatar.png" alt="Avatar">
           </div>
-        </section>
-        <section id="contacts" class="contacts">
-          <h2>Contacts</h2>
-          <ul class="contacts-list">
-            <li class="contacts-item"><b>Location:</b> Batumi, Georgia</li>
-            <li class="contacts-item"><b>Phone:</b> (+995)593-623-268</li>
-            <li class="contacts-item"><b>Email:</b> lkalinindev@gmail.com</li>
-            <li class="contacts-item"><b>Telegram:</b> @almost0ne</li>
-            <li class="contacts-item">
-              <b>LinkedIn:</b>
-              <a href="https://www.linkedin.com/in/lkalinin/"
-                ><img src="assets/img/LI-In-Bug.png" alt="LinkedIn Logo"
-              /></a>
-            </li>
-            <li class="contacts-item">
-              <b>Github:</b>
-              <a href="https://github.com/almalmalm"
-                ><img src="assets/img/github-mark.png" alt="GitHub logo"
-              /></a>
-            </li>
-            <li class="contacts-item"><b>Discord:</b> almalmalm</li>
-            <li class="contacts-item">
-              <b>Codewars:</b>
-              <a href="https://www.codewars.com/users/almalmalm"
-                ><img
-                  src="https://www.codewars.com/users/almalmalm/badges/micro"
-                  alt="Codewars logo"
-              /></a>
-            </li>
-          </ul>
-        </section>
-        <section id="skills" class="skills">
-          <h2>Skills</h2>
-          <ul class="skills-list">
-            <li class="skills-item">
-              <b>Programming languages:</b> HTML, CSS, SQL, Bash, Javascript,
-              Typescript, Java, Python
-            </li>
-            <li class="skills-item">
-              <b>Frameworks:</b> Cypress, Playwright, Pytest, Selenium, TestNG,
-              Mocha, React, Angular, TailwindCSS, SCSS, Redux, Next, Three.js
-            </li>
-            <li class="skills-item"><b>VCS:</b> Git, GitHub, GitLab</li>
-            <li class="skills-item">
-              <b>Tools:</b> Docker, Nodejs, Jira, Confluence, DevTools, Postman,
-              Swagger, Figma, Allure, Gitlab CI/CD, GitHub Actions
-            </li>
-            <li class="skills-item">
-              <b>IDEs:</b> VSCode, WebStorm, IntelliJIDEA, PyCharm
-            </li>
-            <li class="skills-item"><b>OS:</b> Windows, Linux, MacOS</li>
-            <li class="skills-item"><b>Databases:</b> MySQL, MongoDB</li>
-          </ul>
-        </section>
-        <section id="code" class="code">
-          <h2>Code</h2>
-          <div class="code-block">
-            <pre>
+        </div>
+      </section>
+      <section id="contacts" class="contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item"><b>Location:</b> Batumi, Georgia</li>
+          <li class="contacts-item"><b>Phone:</b> (+995)593-623-268</li>
+          <li class="contacts-item"><b>Email:</b> lkalinindev@gmail.com</li>
+          <li class="contacts-item"><b>Telegram:</b> @almost0ne</li>
+          <li class="contacts-item">
+            <b>LinkedIn:</b>
+            <a href="https://www.linkedin.com/in/lkalinin/"><img src="assets/img/LI-In-Bug.png" alt="LinkedIn Logo"></a>
+          </li>
+          <li class="contacts-item">
+            <b>Github:</b>
+            <a href="https://github.com/almalmalm"><img src="assets/img/github-mark.png" alt="GitHub logo"></a>
+          </li>
+          <li class="contacts-item"><b>Discord:</b> almalmalm</li>
+          <li class="contacts-item">
+            <b>Codewars:</b>
+            <a href="https://www.codewars.com/users/almalmalm"><img
+                src="https://www.codewars.com/users/almalmalm/badges/micro" alt="Codewars logo"></a>
+          </li>
+        </ul>
+      </section>
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">
+            <b>Programming languages:</b> HTML, CSS, SQL, Bash, Javascript,
+            Typescript, Java, Python
+          </li>
+          <li class="skills-item">
+            <b>Frameworks:</b> Cypress, Playwright, Pytest, Selenium, TestNG,
+            Mocha, React, Angular, TailwindCSS, SCSS, Redux, Next, Three.js
+          </li>
+          <li class="skills-item"><b>VCS:</b> Git, GitHub, GitLab</li>
+          <li class="skills-item">
+            <b>Tools:</b> Docker, Nodejs, Jira, Confluence, DevTools, Postman,
+            Swagger, Figma, Allure, Gitlab CI/CD, GitHub Actions
+          </li>
+          <li class="skills-item">
+            <b>IDEs:</b> VSCode, WebStorm, IntelliJIDEA, PyCharm
+          </li>
+          <li class="skills-item"><b>OS:</b> Windows, Linux, MacOS</li>
+          <li class="skills-item"><b>Databases:</b> MySQL, MongoDB</li>
+        </ul>
+      </section>
+      <section id="code" class="code">
+        <h2>Code</h2>
+        <div class="code-block">
+          <pre>
               <code>
                 class MainPage {
                   &nbsp;&nbsp;private readonly title = '[data-test="title"]';
@@ -199,91 +188,81 @@
                 }
               </code>
           </pre>
-          </div>
-        </section>
-        <section id="work-experience" class="work-experience">
-          <h2>Work Experience</h2>
-          <ul class="work-experience-list">
-            <li class="work-experience-item">
-              <b>Rusklimat</b>
-              <i>QA Automation Engineer(Playwright + Typescript)</i>
-              Moscow, Russia 09,2022 - Now
-            </li>
-            <li class="work-experience-item">
-              <b>Anflat</b> <i>QA Engineer(Cypress + Javascript)</i> Kazan,
-              Russia 12,2021 - 09,2022
-            </li>
-          </ul>
-        </section>
-        <section id="projects" class="projects">
-          <h2>Projects</h2>
-          <ul class="projects-list">
-            <li class="projects-item">
-              <a href="https://my-expenses-three.vercel.app/"
-                >My Expenses app</a
-              >
-              <a href="https://github.com/almalmalm/my-expenses"
-                ><img src="assets/img/github-mark.png" alt="GitHub logo"
-              /></a>
-            </li>
-            <li class="projects-item">
-              <a href="https://rick-and-morty-almalmalm.vercel.app/"
-                >Rick and Morty app</a
-              >
-              <a href="https://github.com/almalmalm/rick-and-morty"
-                ><img src="assets/img/github-mark.png" alt="GitHub logo"
-              /></a>
-            </li>
-          </ul>
-        </section>
-        <section id="education" class="education">
-          <h2>Education</h2>
-          <ul class="education-list">
-            <li class="education-item">
-              <b>Bachelor of Computer Science</b>
-              <i>2021 - now(paused at 09,2022)</i>
-            </li>
-            <li class="education-item">
-              <b>Food Service Technologist</b> <i>2016-2019</i>
-            </li>
-            <li class="education-item"><b>Andersen QA course</b></li>
-          </ul>
-        </section>
-        <section id="languages" class="languages">
-          <h2>Languages</h2>
-          <ul class="languages-list">
-            <li class="languages-item">
-              <b>English</b> - <i>Upper-Intermediate</i>
-              <a href="https://www.efset.org/cert/2BwmeD">EFSET C1 Advanced</a>
-            </li>
-            <li class="languages-item"><b>Russian</b> - <i>Native</i></li>
-          </ul>
-        </section>
-      </div>
-      <div class="top">
-        <a href="#top">&uarr;</a>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <ul class="footer-list">
-          <li class="footer-item github">
-            <a href="https://github.com/almalmalm"
-              ><img src="assets/img/github-mark.png" alt="GitHub logo"
-            /></a>
+        </div>
+      </section>
+      <section id="work-experience" class="work-experience">
+        <h2>Work Experience</h2>
+        <ul class="work-experience-list">
+          <li class="work-experience-item">
+            <b>Rusklimat</b>
+            <i>QA Automation Engineer(Playwright + Typescript)</i>
+            Moscow, Russia 09,2022 - Now
           </li>
-          <li class="footer-item">&copy; 2023</li>
-          <li class="footer-item">
-            <a href="https://rs.school/js/">
-              <img
-                src="https://rs.school/images/rs_school_js.svg"
-                alt="RSschool logo"
-              />
-            </a>
+          <li class="work-experience-item">
+            <b>Anflat</b> <i>QA Engineer(Cypress + Javascript)</i> Kazan,
+            Russia 12,2021 - 09,2022
           </li>
         </ul>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      </section>
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-item">
+            <a href="https://my-expenses-three.vercel.app/">My Expenses app</a>
+            <a href="https://github.com/almalmalm/my-expenses"><img src="assets/img/github-mark.png"
+                alt="GitHub logo"></a>
+          </li>
+          <li class="projects-item">
+            <a href="https://rick-and-morty-almalmalm.vercel.app/">Rick and Morty app</a>
+            <a href="https://github.com/almalmalm/rick-and-morty"><img src="assets/img/github-mark.png"
+                alt="GitHub logo"></a>
+          </li>
+        </ul>
+      </section>
+      <section id="education" class="education">
+        <h2>Education</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            <b>Bachelor of Computer Science</b>
+            <i>2021 - now(paused at 09,2022)</i>
+          </li>
+          <li class="education-item">
+            <b>Food Service Technologist</b> <i>2016-2019</i>
+          </li>
+          <li class="education-item"><b>Andersen QA course</b></li>
+        </ul>
+      </section>
+      <section id="languages" class="languages">
+        <h2>Languages</h2>
+        <ul class="languages-list">
+          <li class="languages-item">
+            <b>English</b> - <i>Upper-Intermediate</i>
+            <a href="https://www.efset.org/cert/2BwmeD">EFSET C1 Advanced</a>
+          </li>
+          <li class="languages-item"><b>Russian</b> - <i>Native</i></li>
+        </ul>
+      </section>
+    </div>
+    <div class="top">
+      <a href="#top">&uarr;</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li class="footer-item github">
+          <a href="https://github.com/almalmalm"><img src="assets/img/github-mark.png" alt="GitHub logo"></a>
+        </li>
+        <li class="footer-item">&copy; 2023</li>
+        <li class="footer-item">
+          <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RSschool logo">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
