@@ -72,10 +72,29 @@ a {
   gap: 8px;
 }
 
-.nav-link {
-  padding: 0 16px;
-  line-height: 50px;
+.nav {
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #3871a7;
   font-weight: 700;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  background-color: #3871a7;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav .icon {
+  display: none;
 }
 
 .summary {
@@ -205,17 +224,21 @@ pre {
 
 .top-text {
   cursor: pointer;
-  color: #ffffff;
+  color: #3871a799;
   position: relative;
   top: 48px;
   left: 9px;
 }
 
 .circle {
-  background-color: #3871a7;
+  background-color: #3871a750;
   width: 48px;
   height: 48px;
   border-radius: 50%;
+}
+
+.top-text:hover {
+  color: #ffffff99;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -245,7 +268,45 @@ pre {
   .skills-list {
     line-height: 20px;
   }
+
+  .top {
+    right: 32px;
+  }
 }
+
+@media screen and (max-width: 1000px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 16px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .nav {
     margin: 16px 8px;
@@ -332,62 +393,8 @@ pre {
   .avatar {
     left: 30%;
   }
-}
 
-.nav {
-  overflow: hidden;
-}
-
-.nav a {
-  float: left;
-  display: block;
-  color: #3871a7;
-  font-weight: 700;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  color: #ffffff;
-  background-color: #3871a7;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.nav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 1000px) {
-  .nav a {
-    display: none;
-  }
-  .nav a.icon {
-    float: right;
-    display: block;
-    position: absolute;
-    right: 8px;
-    top: 16px;
-  }
-
-  .nav-list {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .nav.responsive {
-    position: relative;
-  }
-  .nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+  .top {
+    right: 24px;
   }
 }
