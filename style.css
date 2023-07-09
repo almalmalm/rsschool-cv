@@ -197,27 +197,25 @@ pre {
 
 .top {
   position: fixed;
-  bottom: 32px;
-  right: 0px;
+  bottom: 48px;
+  right: 48px;
   font-size: 48px;
   font-weight: 700;
 }
 
-.top a {
+.top-text {
   cursor: pointer;
+  color: #ffffff;
+  position: relative;
+  top: 48px;
+  left: 9px;
 }
 
-.top::after {
-  content: '';
-  display: inline-block;
+.circle {
+  background-color: #3871a7;
   width: 48px;
   height: 48px;
-  background-color: #54acf452;
-  position: relative;
-  top: 10px;
-  right: 51px;
   border-radius: 50%;
-  pointer-events: none;
 }
 
 @media only screen and (max-width: 1023px) {
